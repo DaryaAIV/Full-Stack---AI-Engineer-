@@ -1,0 +1,23 @@
+
+
+.box{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+#container{
+    display: inline-block;
+    box-shadow: 5px 5px grey;
+    background-color:silver;
+}
+#first{
+    background-color: cadetblue;
+}
+#second{
+    background-color: chocolate;
+}
+.button{
+    padding: 5px ;
+    background-color: darkseagreen;
+}

@@ -1,0 +1,25 @@
+table{
+    border-collapse: collapse;
+}
+th, tr{
+    text-align:center;
+    padding: 8px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+th{
+    background-color: gainsboro;
+    
+}
+td{
+    background-color: lightgreen;
+    padding: 2px;
+}
+.team-name {
+    text-align: left;
+    font-weight: bold;
+}
+.points{
+    
+    font-weight: bold;
+}

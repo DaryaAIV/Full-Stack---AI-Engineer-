@@ -1,0 +1,36 @@
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+  #back-img{
+    position: relative;
+    width: 100vw;
+    height: 100vh; 
+    background: url(https://img.magnific.com/free-photo/mountain-range-body-water_53876-139760.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
+    background-position: center;
+}
+.title-box h1{
+    margin: 0;
+    font-size: 32px;
+    color: darkslateblue;
+}
+.title-box{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 30%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+.transparent-box { 
+    top: 0; 
+    background-color: cornflowerblue;
+    opacity: 0.6;
+}
+.opaque-box {
+    top: 80px; 
+    background-color: blueviolet; 
+    opacity: 1; 
+}
