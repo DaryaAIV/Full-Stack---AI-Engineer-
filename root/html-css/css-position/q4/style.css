@@ -1,0 +1,37 @@
+.background{
+    position: relative;
+    border-radius: 25px;
+    background-color: crimson;
+    width: 400px;
+    height: 250px;
+}
+.silver{
+    background-color: darkgray;
+    /* padding: 0;
+    margin: 0; */
+    width: 50px;
+    height: 50px;
+}
+#ege-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+}
+#ege-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+.space{
+    position: relative;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin: 0 auto;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    
+}
