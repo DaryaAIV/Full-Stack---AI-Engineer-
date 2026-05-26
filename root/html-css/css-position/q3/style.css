@@ -1,0 +1,59 @@
+.background{
+    position: relative;
+    background-color: cornflowerblue;
+    width: 400px;
+    height: 350px;
+}
+.text{
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+ #money{
+    position: absolute;
+    text-align: left;
+    top: 0;
+    left: 0;
+}
+#time{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.bar{
+    display: inline-block;
+    vertical-align: bottom;
+    background-color: lightgray;
+    margin-left: 25px;
+    width: 25px;
+}
+.bar-cont{
+    position: absolute;
+    bottom: 10px;
+}
+#child1{
+    
+    height: 200px;
+    
+}
+#child2{
+    
+    height: 50px;
+}
+#child3{
+    
+    height: 100px;
+}
+#child4{
+    
+    height: 75px;
+}
+#child5{
+    height: 50px;
+}
+#child6{
+    
+    height: 25px;
+}
