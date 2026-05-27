@@ -1,0 +1,45 @@
+.flexbox-container{
+    display: flex;
+    width: 500px;
+}
+
+.flexbox-item-1{
+    flex: 1;
+    border: 3px solid palevioletred;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 25px;
+}
+
+.pink{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    
+}
+.line-1{
+    background-color: palevioletred;
+    height: 8px;
+    margin-bottom: 8px;
+}
+.line-2{
+    background-color: palevioletred;
+    height: 8px;
+    margin-bottom: 8px;
+}
+.line-3{
+    background-color: palevioletred;
+    width: 50%;
+    height: 8px;
+}
+.flexbox-item-2{
+    border: 3px solid palevioletred;
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    padding: 25px;
+}
