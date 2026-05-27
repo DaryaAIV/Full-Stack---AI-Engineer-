@@ -1,0 +1,62 @@
+.flexbox-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: lightgray;
+}
+
+.flexbox-item-1{
+    justify-content: center;
+    align-items: flex-start;
+    padding: 25px;
+}
+
+.flexbox-item-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.left{
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    
+    
+}
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    gap: 15px;
+}
+.box-1{
+    background-color: cornflowerblue;
+    width: 45%;
+    height: 45%;
+    
+    
+}
+.box-2{
+    background-color: cornflowerblue;
+    width: 45%;
+    height: 45%;
+    
+}
+.box-3{
+    background-color: cornflowerblue;
+    width: 45%;
+    height: 45%;
+}
+.box-4{
+    background-color: cornflowerblue;
+    width: 45%;
+    height: 45%;
+
+}
