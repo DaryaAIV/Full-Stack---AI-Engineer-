@@ -1,0 +1,31 @@
+.flexbox-container{
+    display: flex;
+    width: 500px;
+}
+
+.flexbox-item-1{
+    flex: 1;
+    border: 3px solid gainsboro;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    
+}
+.flexbox-item-2{
+    border: 3px solid gainsboro;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    padding: 25px;
+}
