@@ -1,0 +1,18 @@
+
+.box {
+  width: 300px;
+  height: 150px;
+  border: solid;
+}
+
+/* Mobile First (no media queries) up to 768px */
+div {
+  background-color: red;
+}
+
+/* Desktop 769px and above */
+@media (min-width: 769px) {
+  div {
+    background-color: blue;
+  }
+}
