@@ -1,0 +1,8 @@
+{
+    "workbench.editor.alwaysShowEditorActions": false,
+    "workbench.editor.autoLockGroups": {
+        "default": true,
+        "workbench.editor.chatDebug": true,
+        "workbench.editor.browser": true
+    }
+}
